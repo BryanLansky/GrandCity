@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    opacity: 0.8;
+    position: fixed;
+    display: flex;
+    background-color: black;
+}
+
+.logo{
+    width: 30%;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+    padding: 0 100px;
+    font-size: 23px;
+    color: white;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    height: 100vh;
+}
+
+.content .image img{
+    width: 100%;
+    height: 100vh;
+}
+
+.content .about{
+    height: 590px;
+}
+
+.about{
+    top: 15%;
+    position: absolute;
+}
+
+.about h1{
+    font-size: 80px;
+    text-align: center;
+}
+
+.about h3{
+    margin-left: 100px;
+}
+
+.about p{
+    text-align: justify;
+    font-size: 23px;
+    margin: 10px 100px;
+}
+.text{
+    display: flex;
+}
+
+.about .text_a, .text_b, .text_c{
+    margin-top: 70px;
+}
+
+.footer{
+    height: 150px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+
+.footer .social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social_media img{
+    padding: 20px 20px;
+    width: 40px;
+}

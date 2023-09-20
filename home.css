@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    opacity: 0.8;
+    position: fixed;
+    display: flex;
+    background-color: black;
+}
+
+.logo{
+    width: 30%;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+    padding: 0 100px;
+    font-size: 23px;
+    color: white;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    height: 100vh;
+}
+
+.content img{
+    width: 100%;
+    height: 100vh;
+}
+
+.grand_opening{
+    font-size: 80px;
+    font-weight: bold;
+    position: absolute;
+    top: 32%;
+    left: 10%;
+    color: #401706;
+}
+
+.discount{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 11%;
+    color: #401706;
+}
+
+.date{
+    font-size: 23px;
+    color: #401706;
+}
+
+.voucher{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    color: #401706;
+}
+
+.voucher a{
+    padding: 10px 50px;
+    text-decoration: none;
+    color: white;
+    background-color: #f3700d;
+    border: 5px solid #f3700d;
+    border-radius: 40px;
+}
+
+.voucher a:hover{
+    color: #401706;
+}
+
+.footer{
+    height: 150px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+
+.footer .social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social_media img{
+    padding: 20px 20px;
+    width: 40px;
+}
